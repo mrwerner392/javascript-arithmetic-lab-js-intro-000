@@ -37,5 +37,3 @@ function makeInt(string) {
 function preserveDecimal(string) {
   return parseFloat(string, 10);
 }
-
-
