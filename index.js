@@ -17,3 +17,13 @@ function multiply(num1, num2) {
 function divide(num1, num2) {
   return num1 / num2;
 }
+
+// increment a number
+function inc(num) {
+  return num += 1;
+}
+
+// decrement a number
+function dec(num) {
+  return num -= 1;
+}
