@@ -27,3 +27,15 @@ function inc(num) {
 function dec(num) {
   return num -= 1;
 }
+
+// turn a string into an integer
+function makeInt(string) {
+  return parseInt(string, 10);
+}
+
+// turn a string into a number, keeping the decimal
+function preserveDecimal(string) {
+  return parseFloat(string, 10);
+}
+
+
